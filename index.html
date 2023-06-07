@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suprir Industria de Metais</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/inter-ui@3.11.0/inter.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form class="form_container">
+      <div class="logo_container">
+        <a href="https://www.suprir.com.br/" target="_blank">
+          <img
+            class="logo-suprir"
+            src="./assets/vetor/Logo-Suprir-Vetor.svg"
+            alt="logo"
+            title="Logo Suprir"
+          />
+        </a>
+      </div>
+      <br />
+      <!-- <div class="title_container">
+          <p class="title">Faça login na sua conta</p>
+          <span class="subtitle">Get started with our app, just create an account and enjoy the experience.</span>
+        </div> -->
+      <div class="input_container">
+        <label class="input_label" for="email_field"></label>
+        <img class="icon" src="./assets/vetor/icon-email.svg" alt="" />
+        <input
+          autofocus
+          placeholder="Digite seu e-mail"
+          title="Somente Emails da Suprir.com.br"
+          required
+          name="email_field"
+          pattern=".+@suprir\.com\.br"
+          type="email"
+          class="input_field"
+          id="email_field"
+        />
+      </div>
+      <div class="input_container">
+        <label class="input_label" for="password_field"></label>
+        <img
+          class="icon"
+          src="./assets/vetor/icon-senha.svg"
+          alt="Icone cadeado"
+        />
+        <input
+          placeholder="Digite sua senha"
+          title="Inpit title"
+          required
+          name="password"
+          type="password"
+          class="input_field"
+          id="password_field"
+        />
+      </div>
+      <div id="remember">
+        <a href="#" class="remember">Esqueceu sua senha?</a>
+      </div>
+      <button id="truck-button" class="truck-button" type="submit">
+        <span class="default">Login</span>
+        <span class="success">
+          <svg viewbox="0 0 12 10">
+            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+          </svg>
+        </span>
+        <div class="truck">
+          <div class="wheel"></div>
+          <div class="back"></div>
+          <div class="front"></div>
+          <div class="box"></div>
+        </div>
+      </button>
+
+      <!-- <div class="separator">
+            <hr class="line">
+            <span>Ou</span>
+            <hr class="line">
+          </div>
+          <button title="Sign Up" type="submit" class="sign-up_ggl">
+            <svg height="18" width="18" viewBox="0 0 32 32" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <path d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z" id="A"></path>
+              </defs>
+            <clipPath id="B">
+              
+            </clipPath>
+            <g transform="matrix(.727273 0 0 .727273 -.954545 -1.45455)">
+              <path fill="#fbbc05" clip-path="url(#B)" d="M0 37V11l17 13z"></path>
+              <path fill="#ea4335" clip-path="url(#B)" d="M0 11l17 13 7-6.1L48 14V0H0z"></path>
+              <path fill="#34a853" clip-path="url(#B)" d="M0 37l30-23 7.9 1L48 0v48H0z"></path>
+              <path fill="#4285f4" clip-path="url(#B)" d="M48 48L17 24l-4-3 35-10z"></path>
+            </g>
+          </svg>
+          <span>Cadastre-se</span>
+        </button> -->
+
+      <div class="separator">
+        <hr class="line" />
+      </div>
+      <ul class="slider">
+        <li>
+          <!--               <img src="./assets/vetor/Logo-Panda.svg" alt="Panda">
+ -->
+        </li>
+        <li>
+          <img src="./assets/vetor/colpi.svg" alt="Colpi" />
+        </li>
+        <li>
+          <img src="./assets/vetor/BFM2.svg" alt="BFM" />
+        </li>
+        <li>
+          <img src="./assets/vetor/Transpower-preta.svg" alt="Transpower" />
+        </li>
+      </ul>
+      <p class="copy">&copy; 2023 Suprir Industria de Metais LTDA</p>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
