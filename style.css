@@ -50,11 +50,12 @@ body {
   gap: 10px;
 
   width: 23rem;
+
+  transition: 0.5s ease;
 }
 
 .logo-suprir:hover {
   transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transition: 0.5s linear;
 }
 
 .title_container {
