@@ -12,7 +12,8 @@ document.querySelectorAll(".truck-button").forEach((button) => {
 
     if (
       !isAnimating &&
-      validator.isEmail(emailField.value && passwordField.value)
+      validator.isEmail(emailField.value) &&
+      passwordField.value
     ) {
       // Campos preenchidos corretamente
       let box = button.querySelector(".box"),
