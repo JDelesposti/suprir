@@ -49,6 +49,9 @@ body {
   justify-content: center;
   gap: 10px;
 
+  filter: drop-shadow(0px 1px 1px #0000008f)
+    drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.412));
+
   width: 23rem;
 
   transition: 0.5s ease;
