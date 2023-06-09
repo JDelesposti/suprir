@@ -127,12 +127,12 @@ body {
   margin-bottom: 1.5rem;
 
   font-weight: 600;
-  cursor: pointer;
 }
 
 .remember {
   text-decoration: none;
   color: #8b8e98;
+  cursor: pointer;
 }
 
 .remember:hover {
