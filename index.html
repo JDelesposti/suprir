@@ -45,8 +45,9 @@
         <img class="icon" src="./assets/icon-senha.svg" alt="Icone cadeado" />
         <input
           placeholder="Digite sua senha"
-          title="Inpit title"
+          pattern="(?=^.{8,}$)((?=.*\d)(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
           required
+          title="Inpit title"
           name="password"
           type="password"
           class="input_field"
@@ -72,6 +73,30 @@
       </button>
       <div class="separator">
         <hr class="line" />
+        <span class="or">ou</span>
+        <hr class="line" />
+      </div>
+      <div id="other-acc">
+        <div id="mcst-container">
+          <a class="mcst-btn" href="">
+            <img
+              class="acc-icon"
+              src="./assets/logo-microsoft.svg"
+              alt="Logo da google"
+            />
+            <span class="mcst-text">Use sua conta Microsoft</span>
+          </a>
+        </div>
+        <div id="ggl-container">
+          <a class="ggl-btn" href="">
+            <img
+              class="acc-icon"
+              src="./assets/logo-google.svg"
+              alt="Logo da google"
+            />
+            <span class="ggl-text">Use sua conta Google</span>
+          </a>
+        </div>
       </div>
       <ul class="slider">
         <li>
