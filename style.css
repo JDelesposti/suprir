@@ -40,6 +40,7 @@ body {
     0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 11px;
   font-family: "Inter", sans-serif;
+  transition: 1s;
 }
 
 .logo-suprir {
@@ -47,12 +48,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
 
   filter: drop-shadow(0px 1px 1px #0000008f)
     drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.412));
 
-  width: 23rem;
+  width: 30rem;
 
   transition: 0.5s ease;
 }
@@ -119,29 +119,47 @@ body {
   transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
 }
 
+#truck-button .default {
+  font-weight: 500;
+}
+
 #remember {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 5px;
-  font-size: 1rem;
+
+  padding: 0 2rem 0 0.7rem;
+
+  justify-content: space-between;
 
   margin-bottom: 1.5rem;
 
   font-weight: 600;
 }
 
-.remember {
+#remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.remember-me {
   text-decoration: none;
   color: #8b8e98;
   cursor: pointer;
 }
 
+.remember {
+  text-decoration: none;
+  color: #8b8e98;
+  cursor: pointer;
+  transition: 1s;
+}
+
 .remember:hover {
   text-decoration: underline;
   color: #323338;
-  transition: 1s;
 }
 
 .copy {
@@ -156,21 +174,28 @@ body {
   background-color: transparent;
 }
 
-.sign-up_ggl {
+#singup {
   width: 100%;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  background: #ffffff;
-  border-radius: 7px;
-  outline: none;
-  color: #242424;
-  border: 1px solid #e5e5e5;
-  filter: drop-shadow(0px 1px 0px #efefef)
-    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #8b8e98;
+}
+
+#singup a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+#singup a:hover {
+  text-decoration: underline;
+  color: #323338;
 }
 
 .separator {
