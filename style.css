@@ -40,7 +40,6 @@ body {
     0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 11px;
   font-family: "Inter", sans-serif;
-  transition: 1s;
 }
 
 .logo-suprir {
@@ -52,7 +51,7 @@ body {
   filter: drop-shadow(0px 1px 1px #0000008f)
     drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.412));
 
-  width: 30rem;
+  width: 24rem;
 
   transition: 0.5s ease;
 }
@@ -69,21 +68,6 @@ body {
   gap: 10px;
 }
 
-.title {
-  margin: 0;
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #212121;
-}
-
-.subtitle {
-  font-size: 0.725rem;
-  max-width: 80%;
-  text-align: center;
-  line-height: 1.1rem;
-  color: #8b8e98;
-}
-
 .input_container {
   width: 100%;
   height: fit-content;
@@ -94,17 +78,11 @@ body {
 }
 
 .icon {
-  width: 20px;
+  width: 2rem;
   position: absolute;
   z-index: 99;
   left: 12px;
   bottom: 9px;
-}
-
-.input_label {
-  font-size: 1.1rem;
-  color: #8b8e98;
-  font-weight: 600;
 }
 
 .input_field {
@@ -120,6 +98,7 @@ body {
 }
 
 #truck-button .default {
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
 
@@ -176,45 +155,75 @@ body {
 
 #other-acc {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: space-around;
+  gap: 1rem;
   width: 100%;
-  height: 40px;
-  gap: 10px;
 }
 
 #mcst-container .mcst-btn {
+  width: 20rem;
+  height: 40px;
   gap: 1rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   border: 1px solid #e5e5e5;
-  border-radius: .7rem;
-  padding: .5rem 1.5rem;
-  
+  border-radius: 0.7rem;
+  padding: 0.5rem 1.5rem;
+}
+
+#mcst-container a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #3d3e41;
+}
+
+#ggl-container a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #3d3e41;
 }
 
 #ggl-container .ggl-btn {
+  width: 20rem;
+  height: 40px;
   gap: 1rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   border: 1px solid #e5e5e5;
-  border-radius: .7rem;
-  padding: .5rem 1.5rem;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .acc-icon {
-  width: 3rem;
+  width: 2rem;
 }
 
-#singup a {
-  text-decoration: none;
+#sing-up {
+  width: 100%;
+}
+
+.singup {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
   font-weight: 700;
-  color: black;
+  color: #3d3e41;
+}
+
+.singup a {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #242426;
   cursor: pointer;
   transition: 0.5s;
 }
 
-#singup a:hover {
+.singup a:hover {
   text-decoration: underline;
   color: #323338;
 }
