@@ -174,15 +174,36 @@ body {
   background-color: transparent;
 }
 
-#singup {
+#other-acc {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   width: 100%;
+  height: 40px;
+  gap: 10px;
+}
+
+#mcst-container .mcst-btn {
+  gap: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #8b8e98;
+  border: 1px solid #e5e5e5;
+  border-radius: .7rem;
+  padding: .5rem 1.5rem;
+  
+}
+
+#ggl-container .ggl-btn {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: .7rem;
+  padding: .5rem 1.5rem;
+}
+
+.acc-icon {
+  width: 3rem;
 }
 
 #singup a {
@@ -231,6 +252,10 @@ body {
   height: 100%;
   width: 100%;
   vertical-align: top;
+}
+
+.shake {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 
 @keyframes shake {
@@ -289,6 +314,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    border-radius: none;
   }
 
   .icon {
@@ -297,12 +323,6 @@ body {
     z-index: 99;
     left: 12px;
     bottom: 9px;
-  }
-
-  .input_label {
-    font-size: 1.1rem;
-    color: #8b8e98;
-    font-weight: 600;
   }
 
   .input_field {
