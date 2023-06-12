@@ -208,6 +208,10 @@ body {
   vertical-align: top;
 }
 
+.shake {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
 @keyframes shake {
   0%,
   100% {
@@ -264,6 +268,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    border-radius: none;
   }
 
   .icon {
@@ -272,12 +277,6 @@ body {
     z-index: 99;
     left: 12px;
     bottom: 9px;
-  }
-
-  .input_label {
-    font-size: 1.1rem;
-    color: #8b8e98;
-    font-weight: 600;
   }
 
   .input_field {
