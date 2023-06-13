@@ -160,7 +160,7 @@ body {
   width: 100%;
 }
 
-#mcst-container .mcst-btn {
+.social-btn .mcst-btn {
   width: 20rem;
   height: 40px;
   gap: 1rem;
@@ -172,21 +172,14 @@ body {
   padding: 0.5rem 1.5rem;
 }
 
-#mcst-container a {
+.social-btn a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   text-decoration: none;
   color: #3d3e41;
 }
 
-#ggl-container a {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  color: #3d3e41;
-}
-
-#ggl-container .ggl-btn {
+.social-btn .ggl-btn {
   width: 20rem;
   height: 40px;
   gap: 1rem;
@@ -350,7 +343,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5px;
     font-size: 1rem;
 
@@ -381,4 +374,12 @@ body {
     height: 100%;
     width: 100%;
   }
+
+  #other-acc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
 }
