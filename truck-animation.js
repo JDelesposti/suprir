@@ -7,15 +7,12 @@ document.querySelectorAll(".truck-button").forEach((button) => {
 
     if (!button.classList.contains("done")) {
       if (!button.classList.contains("animation")) {
-        let input = document.getElementById("email_field")
-        let input2 = document.getElementById("password_field")
-
+        let input =
+          document.getElementById("email_field") &&
+          document.getElementById("password_field")
         let pattern = input.getAttribute("pattern")
-        let pattern2 = input2.getAttribute("pattern")
-
-        let valor = input.value || input2.value
-
-        let regex = new RegExp(pattern || pattern2)
+        let valor = input.value
+        let regex = new RegExp(pattern)
 
         if (!regex.test(valor)) {
           input.pro
